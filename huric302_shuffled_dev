@@ -1,0 +1,335 @@
+# ::id 116
+# ::snt put the pillow under the bed
+(x1 / put-01
+    :ARG1 (x3 / pillow)
+    :location (x4 / under
+        :op1 (x6 / bed)))
+
+# ::id 58
+# ::snt find the flowers
+(x1 / find-01
+    :ARG1 (x3 / flower))
+
+# ::id 3
+# ::snt search for the coffee cups
+(x1 / search-01
+    :ARG2 (x5 / cup
+        :mod (x4 / coffee)))
+
+# ::id 243
+# ::snt follow the guy in the blue hoodie
+(x1 / follow-01
+    :ARG1 (x3 / guy
+        :ARG1-of (x7 / hoodie
+            :ARG1-of (x6 / blue))))
+
+# ::id 14
+# ::snt bring the mug to the kitchen
+(x1 / bring-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / kitchen))
+
+# ::id 174
+# ::snt carry the laptop to daniele
+(x1 / carry-01
+    :ARG1 (x3 / laptop)
+    :destination (x5 / daniele))
+
+# ::id 39
+# ::snt bring me the pillow from the bed
+(x1 / bring-01
+    :ARG1 (x4 / pillow)
+    :ARG4 (x7 / bed))
+
+# ::id 287
+# ::snt take the bottle to the bedroom
+(x1 / take-01
+    :ARG1 (x3 / bottle)
+    :ARG3 (x6 / bedroom))
+
+# ::id 210
+# ::snt activate the television
+(x1 / activate-01
+    :ARG1 (x3 / television))
+
+# ::id 267
+# ::snt find the table in the bedroom
+(x1 / find-01
+    :ARG1 (x3 / table
+        :location (x6 / bedroom)))
+
+# ::id 90
+# ::snt this is a living room with white furniture
+(x5 / room
+    :domain (x1 / this)
+    :mod (x4 / live-01)
+    :ARG1-of (x8 / furniture
+        :ARG1-of (x7 / white)))
+
+# ::id 225
+# ::snt find my address book in the living room
+(x1 / find-01
+    :ARG1 (x4 / book
+        :mod (x3 / address-02)
+        :location (x8 / room
+            :mod (x7 / live-01))))
+
+# ::id 268
+# ::snt follow me to the living room
+(x1 / follow-01
+    :ARG2 (x6 / room
+        :mod (x5 / live-01)))
+
+# ::id 107
+# ::snt go to the bathroom to the down right cupboard and take a towel
+(x10 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / bathroom)
+        :ARG4 (x9 / cupboard
+            :mod (x8 / right
+                :mod (x7 / down))))
+    :op2 (x11 / take-01
+        :ARG1 (x13 / towel)))
+
+# ::id 56
+# ::snt bring the book near the lamp
+(x1 / bring-01
+    :ARG1 (x3 / book)
+        :location (x4 / near
+            :op1 (x6 / lamp)))
+
+# ::id 212
+# ::snt bring me the bottle
+(x1 / bring-01
+    :ARG1 (x4 / bottle))
+
+# ::id 259
+# ::snt look for my handbag in the dining room
+(x1 / look-01
+    :ARG1-of (xap0 / cause-01
+        :ARG0-of (x4 / handbag
+            :location (x8 / room
+                :mod (x7 / dine-01)))))
+
+# ::id 242
+# ::snt follow me slowly
+(x1 / follow-01
+    :manner (x3 / slow))
+
+# ::id 103
+# ::snt find the red pillow
+(x1 / find-01
+    :ARG1 (x4 / pillow
+        :mod (x3 / red)))
+
+# ::id 6
+# ::snt carry the mug to the bathroom
+(x1 / carry-01
+    :ARG1 (x3 / mug)
+    :destination (x6 / bathroom))
+
+# ::id 49
+# ::snt go along with them
+(x1 / go-01
+    :accompanier (x4 / them))
+
+# ::id 67
+# ::snt move to the fridge
+(x1 / move-01
+    :ARG2 (x4 / fridge))
+
+# ::id 142
+# ::snt there is a radio next to the bed
+(x4 / radio
+    :location (x5 / next-to
+        :op1 (x8 / bed)))
+
+# ::id 11
+# ::snt move near the right lamp
+(x1 / move-01
+    :destination (x2 / near-01
+        :op1 (x5 / lamp
+            :mod (x4 / right))))
+
+# ::id 229
+# ::snt find the bottle of wine in the kitchen
+(x1 / find-01
+    :ARG1 (x5 / wine
+        :quant (x3 / bottle)
+        :location (x8 / kitchen)))
+
+# ::id 272
+# ::snt put the book in the dining room
+(x1 / put-01
+    :ARG1 (x3 / book)
+    :ARG2 (x7 / room
+        :mod (x6 / dine-01)))
+
+# ::id 291
+# ::snt take the phone to the bathroom
+(x1 / take-01
+    :ARG1 (x3 / phone)
+    :ARG3 (x6 / bathroom))
+
+# ::id 106
+# ::snt move to the sink and open the cold water
+(x5 / and
+    :op1 (x1 / move-01
+        :ARG2 (x4 / sink-01))
+    :op2 (x6 / open-01
+        :ARG1 (x9 / water
+            :mod (x8 / cold))))
+
+# ::id 257
+# ::snt go to the television in the living room
+(x1 / go-01
+    :ARG4 (x4 / television
+        :location (x8 / room
+            :mod (x7 / live-01))))
+
+# ::id 101
+# ::snt put the book on the chair near the dining table
+(x1 / put-01
+    :ARG1 (x3 / book)
+    :ARG2 (x6 / chair
+        :location (x7 / near-02
+            :op1 (x10 / table
+                :mod (x9 / dine-01)))))
+
+# ::id 236
+# ::snt find the table in the bedroom
+(x1 / find-01
+    :ARG1 (x3 / table
+        :location (x6 / bedroom)))
+
+# ::id 193
+# ::snt look for the glass in the bedroom
+(x1 / look-01
+    :ARG1 (x4 / glass
+        :location (x7 / bedroom)))
+
+# ::id 33
+# ::snt bring my phone to the bathroom
+(x1 / bring-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x6 / bathroom))
+
+# ::id 30
+# ::snt carry the mug to the dining room
+(x1 / carry-01
+    :ARG1 (x3 / mug)
+    :destination (x6 / room
+        :mod (x4 / dine-01)))
+
+# ::id 129
+# ::snt take my phone into the living room
+(x1 / take-01
+    :ARG1 (x3 / phone)
+    :ARG3 (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 53
+# ::snt slowly follow my father
+(x2 / follow-01
+    :ARG1 (xap0 / person
+        :ARG0-of (x4 / have-rel-role-91
+            :ARG2 (f / father)))
+    :manner (x1 / slow))
+
+# ::id 200
+# ::snt search in the corridor for the jar
+(x1 / search-01
+    :ARG1 (x4 / corridor)
+    :ARG2 (x7 / jar))
+
+# ::id 218
+# ::snt bring the mobile to the living room
+(x1 / bring-01
+    :ARG1 (x3 / mobile-02)
+    :ARG2 (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 167
+# ::snt in this room there are six chairs
+(x7 / chair
+    :location (x3 / room
+        :mod (x2 / this))
+    :quant 6)
+
+# ::id 248
+# ::snt go into the dining room with the bottle
+(x1 / go-01
+    :ARG4 (x5 / room
+        :mod (x4 / dine-01))
+        :consist-of (x8 / bottle))
+
+# ::id 55
+# ::snt get the blue slippers from the bathroom
+(x1 / get-01
+    :ARG1 (x4 / slipper
+        :ARG1-of (x3 / blue))
+    :ARG2 (x7 / bathroom))
+
+# ::id 36
+# ::snt this is a bed room
+(x5 / room
+    :domain (x1 / this)
+    :mod (x4 / bed))
+
+# ::id 47
+# ::snt go to the mirror
+(x1 / go-01
+    :ARG4 (x4 / mirror))
+
+# ::id 176
+# ::snt carry the pillow near the window of the bedroom
+(x1 / carry-01
+    :ARG1 (x3 / pillow
+        :location (x4 / near-02
+            :op1 (x6 / window
+                :ARG1-of (x9 / bedroom)))))
+
+# ::id 16
+# ::snt drive to the fridge
+(x1 / drive-01
+    :destination (x4 / fridge))
+
+# ::id 144
+# ::snt go to the sink
+(x1 / go-01
+    :ARG4 (x4 / sink-01))
+
+# ::id 70
+# ::snt this is a bathroom with a shower bath and double sink
+(x4 / bathroom
+    :domain (x1 / this)
+    :ARG1-of (x9 / and
+        :op1 (x8 / bath
+            :mod (x7 / shower-01))
+        :op2 (x11 / sink-01
+            :quant 2)))
+
+# ::id 297
+# ::snt disconnect from the router
+(x1 / disconnect-01
+    :ARG2 (x4 / router))
+
+# ::id 296
+# ::snt it 's a diningroom with a table of glass in it with six chairs
+(x4 / diningroom
+    :prep-with (xap0 / and
+        :op1 (x7 / table
+            :ARG1-of (x9 / glass))
+        :op2 (x14 / chair
+            :quant 6)))
+
+# ::id 52
+# ::snt the living room is very light and bright
+(x7 / and
+    :op1 (x6 / light
+        :degree (x5 / very))
+    :op2 (x8 / bright
+        :degree x5)
+    :domain (x3 / room
+        :mod (x2 / live-01)))
+

@@ -1,0 +1,2639 @@
+# ::id 1
+# ::snt follow this guy
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / guy
+        :mod (x2 / this)))
+
+# ::id 2
+# ::snt this is a table with a glass deck
+# ::parameters x4 x8
+# ::action Define_Action
+(x4 / table
+    :domain (x1 / this)
+    :ARG2-of (x8 / deck
+        :mod (x7 / glass)))
+
+# ::id 3
+# ::snt search for the coffee cups
+# ::parameters x5
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x5 / cup
+        :mod (x4 / coffee)))
+
+# ::id 4
+# ::snt carry the book to my nightstand
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / book)
+    :destination (x6 / nightstand
+        :poss (x5 / i)))
+
+# ::id 5
+# ::snt go to the kitchen
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / kitchen))
+
+# ::id 6
+# ::snt carry the mug to the bathroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / mug)
+    :destination (x6 / bathroom))
+
+# ::id 7
+# ::snt find the lamp
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / lamp))
+
+# ::id 8
+# ::snt bring the mobile phone to the livingroom
+# ::parameters x4 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / phone
+        :mod (x3 / mobile-02))
+    :ARG2 (x7 / livingroom))
+
+# ::id 9
+# ::snt find the refrigerator
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / refrigerator))
+
+# ::id 10
+# ::snt follow the person with the blonde hair and the black pants fast
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG2 (x3 / person
+        :ARG1-of (x8 / and
+            :op1 (x7 / hair
+                :ARG1-of (x6 / blonde))
+            :op2 (x11 / pants
+                :ARG1-of (x10 / black-05))))
+    :manner (x12 / fast))
+
+# ::id 11
+# ::snt move near the right lamp
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / move-01
+    :destination (x2 / near-01
+        :op1 (x5 / lamp
+            :mod (x4 / right))))
+
+
+# ::id 12
+# ::snt bring the mug to the couch in the living room
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / couch
+            :location (x10 / room
+                :mod (x9 / live-01))))
+
+# ::id 13
+# ::snt there are two sinks in the kitchen
+# ::parameters x4 x7
+# ::action Define_Action
+(x4 / sink-01
+    :quant 2
+    :location (x7 / kitchen))
+
+# ::id 14
+# ::snt bring the mug to the kitchen
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / kitchen))
+
+# ::id 15
+# ::snt follow the person behind you
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / person
+        :location (x4 / behind
+            :op1 (x5 / you))))
+
+# ::id 16
+# ::snt drive to the fridge
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / drive-01
+    :destination (x4 / fridge))
+
+# ::id 17
+# ::snt search for the lamp
+# ::parameters x4
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x4 / lamp))
+
+# ::id 18
+# ::snt follow me carefully
+# ::parameters x0 x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :manner (x3 / careful))
+
+# ::id 19
+# ::snt bring mug to bedroom
+# ::parameters x2 x4
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x2 / mug)
+    :ARG2 (x4 / bedroom))
+
+# ::id 20
+# ::snt search for towel
+# ::parameters x3
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x3 / towel))
+
+# ::id 21
+# ::snt the fridge is on your right side
+# ::parameters x2 x7
+# ::action Define_Action
+(x2 / fridge
+    :location (x7 / side
+        :mod (x6 / right)
+        :op1 (x5 / you)))
+
+# ::id 22
+# ::snt drive to kitchen
+# ::parameters x0 x3
+# ::action Relocate_Action
+(x1 / drive-01
+    :destination (x3 / kitchen))
+
+# ::id 23
+# ::snt follow that person
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / person
+        :mod (x2 / that)))
+
+# ::id 24
+# ::snt put the mug in the living room
+# ::parameters x3 10
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x10 / room
+        :mod (x9 / live-01)))
+
+# ::id 25
+# ::snt find the wine in the dining room
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / wine)
+    :location (x7 / room
+        :mod (x6 / dine-01)))
+
+# ::id 26
+# ::snt go to the bathroom
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / bathroom))
+
+# ::id 27
+# ::snt there are a lot of couches in the living room
+# ::parameters x6 x10
+# ::action Define_Action
+(x6 / couch
+    :quant (x4 / lot)
+    :location (x10 / room
+        :mod (x9 / live-01)))
+
+# ::id 28
+# ::snt go to the living room and find a drink
+(x6 / and
+    :op1 (x1 / go-01
+        :ARG4 (x5 / room
+            :mod (x4 / live-01)))
+    :op2 (x7 / find-01
+        :ARG1 (x9 / drink)))
+
+# ::id 29
+# ::snt there is some bread on the desk
+# ::parameters x4 x7
+# ::action Define_Action
+(x4 / bread
+    :quant (x3 / some)
+    :location (x7 / desk))
+
+# ::id 30
+# ::snt carry the mug to the dining room
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / mug)
+    :destination (x6 / room
+        :mod (x4 / dine-01)))
+
+# ::id 31
+# ::snt go to the living room
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x5 / room
+        :mod (x4 / live-01)))
+
+# ::id 32
+# ::snt you are in the bedroom and the bed is between two lamps
+(x6 / and
+    :op1 (x1 / you
+        :location (x5 / bedroom))
+    :op2 (x8 / bed
+        :location (x10 / between
+            :op1 (x12 / lamp
+                :quant 2))))
+
+# ::id 33
+# ::snt bring my phone to the bathroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x6 / bathroom))
+
+# ::id 34
+# ::snt follow the guy with the blue jacket
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / guy)
+        :ARG1-of (x7 / jacket
+            :ARG1-of (x6 / blue)))
+
+# ::id 35
+# ::snt bring me the coke from the fridge
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / coke)
+    :ARG2 (x2 / i)
+    :ARG4 (x7 / fridge))
+
+# ::id 36
+# ::snt this is a bed room
+# ::parameters x5 x0
+# ::action Define_Action
+(x5 / room
+    :domain (x1 / this)
+    :mod (x4 / bed))
+
+# ::id 37
+# ::snt follow the person in front of you
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG2 (x3 / person
+        :location (x5 / front
+            :op1 (x7 / you))))
+
+# ::id 38
+# ::snt move to the living room
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x5 / room
+        :mod (x4 / live-01)))
+
+# ::id 39
+# ::snt bring me the pillow from the bed
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / pillow)
+    :ARG2 (x2 / i)
+    :ARG4 (x7 / bed))
+
+# ::id 40
+# ::snt bring the phone to the dinner table
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x7 / table
+        :mod (x6 / dinner)))
+
+# ::id 41
+# ::snt follow the person in front of you
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG2 (x3 / person
+        :location (x5 / front
+            :op1 (x7 / you))))
+
+# ::id 42
+# ::snt go to the sofa and search for the pillow
+(x5 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / sofa))
+    :op2 (x6 / search-01
+        :ARG2 (x9 / pillow)))
+
+# ::id 43
+# ::snt go quickly to the corner and follow the skinny person
+(x6 / and
+    :op1 (x1 / go-01
+        :ARG4 (x5 / corner)
+        :manner (x2 / quick-02))
+    :op2 (x7 / follow-01
+        :ARG0 (x10 / person
+            :ARG1-of (x9 / skin))))
+
+# ::id 44
+# ::snt move to the lamp on the right side of the bed
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / lamp
+        :location (x8 / side
+            :mod (x7 / right)
+            :ARG1-of (x11 / bed))))
+
+# ::id 45
+# ::snt place the mug on the sink nearest to the refrigerator
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / place
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / sink-01
+        :location (x7 / near
+            :op1 (x10 / refrigerator)
+            :degree (xap0 / most))))
+
+# ::id 46
+# ::snt there is a bed with two lamps
+# ::parameters x4 x7
+# ::action Define_Action
+(x4 / bed
+    :ARG1-of (x7 / lamp
+        :quant 2))
+
+# ::id 47
+# ::snt go to the mirror
+# ::parameters x0 x7
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / mirror))
+
+# ::id 48
+# ::snt find me a cushion
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / find-01
+    :ARG1 (x4 / cushion))
+    :ARG2 (x2 / i)
+
+# ::id 49
+# ::snt go along with them
+# ::parameters x4
+# ::action Follow_Action
+(x1 / go-01
+    :accompanier (x4 / them))
+
+# ::id 50
+# ::snt bring the mug to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / bedroom))
+
+# ::id 51
+# ::snt go to the table
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / table))
+
+# ::id 52
+# ::snt the living room is very light and bright
+(x7 / and
+    :op1 (x6 / light
+        :degree (x5 / very))
+    :op2 (x8 / bright
+        :degree x5)
+    :domain (x3 / room
+        :mod (x2 / live-01)))
+
+# ::id 53
+# ::snt slowly follow my father
+# ::parameters xap0
+# ::action Follow_Action
+(x2 / follow-01
+    :ARG1 (xap0 / person
+        :ARG0-of (x4 / have-rel-role-91
+            :ARG2 (f / father))
+        :poss (x3 / i))
+    :manner (x1 / slow))
+
+# ::id 54
+# ::snt bring the phone to the living room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 55
+# ::snt get the blue slippers from the bathroom
+# ::parameters x4 x0
+# ::action Relocate_Action
+(x1 / get-01
+    :ARG1 (x4 / slipper
+        :ARG1-of (x3 / blue))
+    :ARG2 (x7 / bathroom))
+
+# ::id 56
+# ::snt bring the book near the lamp
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / book)
+        :location (x4 / near
+            :op1 (x6 / lamp)))
+
+# ::id 57
+# ::snt the bath-tub is on the left side
+# ::parameters x2 x7
+# ::action Define_Action
+(x2 / bath-tub
+    :location (x7 / side
+        :mod (x6 / left)))
+
+# ::id 58
+# ::snt find the flowers
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / flower))
+
+# ::id 59
+# ::snt follow me slowly
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :manner (x3 / slow))
+
+# ::id 60
+# ::snt go to the door
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / door))
+
+# ::id 61
+# ::snt follow me
+# ::parameters x2
+# ::action Relocate_Action
+(x1 / follow-01
+    :ARG1 (x2 / i))
+
+# ::id 62
+# ::snt bring me my telephone from the couch
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / telephone-01
+        :poss (x3 / i))
+    :ARG2 (x2 / i)
+    :ARG4 (x7 / couch))
+
+# ::id 63
+# ::snt this is a very wide and bright livingroom
+# ::parameters x8 x6
+# ::action Define_Action
+(x8 / livingroom
+    :ARG1 (x6 / and
+        :op1 (x5 / wide-02
+            :degree (x4 / very))
+        :op2 (x7 / bright-02
+            :degree x4))
+    :domain (x1 / this))
+
+# ::id 64
+# ::snt bring me the towel from the bathroom
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / towel)
+    :ARG2 (x2 / i)
+    :ARG4 (x7 / bathroom))
+
+# ::id 65
+# ::snt follow me
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i))
+
+# ::id 66
+# ::snt find a glass in the dining room
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / glass
+        :location (x7 / room
+            :mod (x6 / dine-01))))
+
+# ::id 67
+# ::snt move to the fridge
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / fridge))
+
+# ::id 68
+# ::snt go to the dining table
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x5 / table
+        :mod (x4 / dine-01)))
+
+# ::id 69
+# ::snt go get a book
+(xap0 / and
+    :op1 (x1 / go-01)
+    :op2 (x2 / get-01
+        :ARG1 (x4 / book)))
+
+# ::id 70
+# ::snt this is a bathroom with a shower bath and double sink
+# ::parameters x4 x9
+# ::action Define_Action
+(x4 / bathroom
+    :domain (x1 / this)
+    :ARG1-of (x9 / and
+        :op1 (x8 / bath
+            :mod (x7 / shower-01))
+        :op2 (x11 / sink-01
+            :quant 2)))
+
+# ::id 71
+# ::snt take the mug to the coffee table in the living room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / mug)
+    :ARG3 (x7 / table
+        :mod (x6 / coffee)
+        :location (x11 / room
+            :mod (x10 / live-01))))
+
+# ::id 72
+# ::snt go to the bathroom
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / bathroom))
+
+# ::id 73
+# ::snt go follow my sister around the house
+(xap0 / and
+    :op1 (x1 / go-01)
+    :op2 (x2 / follow-01
+        :location (x5 / around
+            :op1 (x7 / house))
+        :ARG1 (xap1 / person
+            :ARG0-of (x4 / have-rel-role-91
+                :ARG2 (s / sister))
+            :poss (x3 / i))))
+
+# ::id 74
+# ::snt grab my wine glass from the dining room
+# ::parameters x4 x0
+# ::action Relocate_Action
+(x1 / grab-01
+    :ARG1 (x4 / glass
+        :mod (x3 / wine)
+        :poss (x2 / i))
+        :location (x8 / room
+            :mod (x7 / dine-01)))
+
+# ::id 75
+# ::snt go to the kitchen and bring me some bread from the pantry
+(x5 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / kitchen))
+    :op2 (x6 / bring-01
+        :ARG1 (x9 / bread
+            :mod (x8 / some)
+        :ARG2 (x2 / i)
+        :ARG4 (x12 / pantry))))
+
+# ::id 76
+# ::snt go to the fridge inside the kitchen
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / fridge)
+        :location (x5 / inside
+            :op1 (x7 / kitchen)))
+
+# ::id 77
+# ::snt follow that guy over there
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / guy
+        :mod (x2 / that))
+        :location (x4 / there))
+
+# ::id 78
+# ::snt take my phone and place it on the bench in the kitchen
+(x4 / and
+    :op1 (x1 / take-01
+        :ARG1 (x3 / phone
+            :poss (x2 / i)))
+    :op2 (x5 / place
+        :ARG1 (x3
+            :location (x9 / bench
+                :location (x12 / kitchen)))))
+
+# ::id 79
+# ::snt the sink is in the kitchen
+# ::parameters x2 x6
+# ::action Define_Action
+(x2 / sink-01
+    :location (x6 / kitchen))
+
+# ::id 80
+# ::snt get my coat from the closet
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / get-01
+    :ARG1 (x3 / coat
+        :poss (x5 / i))
+    :ARG2 (x6 / closet))
+
+# ::id 81
+# ::snt come with me
+# ::parameters x2
+# ::action Follow_Action
+(x1 / come-01
+    :prep-with (x2 / i))
+
+# ::id 82
+# ::snt take the mug to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / bedroom))
+
+# ::id 83
+# ::snt find a plate
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / plate))
+
+# ::id 84
+# ::snt carry this mug to the bedstand
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / mug
+        :mod (x2 / this))
+    :destination (x6 / bedstand))
+
+# ::id 85
+# ::snt go to the bedroom
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / bedroom))
+
+# ::id 86
+# ::snt follow the person in front of me
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG2 (x3 / person
+        :location (x5 / front
+            :op1 (x7 / i))))
+
+# ::id 87
+# ::snt this is a bathroom where the door is on the right
+# ::parameters x4 x7
+# ::action Define_Action
+(x4 / bathroom
+    :domain (x1 / this)
+    :ARG1-of (x7 / door
+        :location (x11 / right-05)))
+
+# ::id 88
+# ::snt take my cellphone to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / cellphone
+        :poss (x2 / i))
+    :ARG3 (x6 / bedroom))
+
+# ::id 89
+# ::snt find the refrigerator
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / refrigerator))
+
+# ::id 90
+# ::snt this is a living room with white furniture
+# ::parameters x5 x8
+# ::action Define_Action
+(x5 / room
+    :domain (x1 / this)
+    :mod (x4 / live-01)
+    :ARG1-of (x8 / furniture
+        :ARG1-of (x7 / white)))
+
+# ::id 91
+# ::snt put the cell phone on the dining room table
+# ::parameters x4 x9
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x4 / phone
+        :mod (x3 / cell))
+    :ARG2 (x9 / table
+        :mod (x8 / room
+            :mod (x7 / dine-01))))
+
+# ::id 92
+# ::snt go to the dining room
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x5 / room
+        :mod (x4 / dine-01)))
+
+# ::id 93
+# ::snt find the lamp in the living room
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / lamp)
+        :location (x7 / room
+            :mod (x6 / live-01)))
+
+# ::id 94
+# ::snt follow the man closely
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / man)
+    :manner (x4 / close))
+
+# ::id 95
+# ::snt fetch me the tissue box
+# ::parameters x5 x2
+# ::action Relocate_Action
+(x1 / fetch
+    :ARG1 (x5 / box
+        :mod (x4 / tissue))
+    :ARG2 (x2 / i))
+
+# ::id 96
+# ::snt find me the butcher knife
+# ::parameters x5 x2
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x5 / knife
+        :mod (x4 / butcher))
+    :ARG2 (x2 / i))
+
+# ::id 97
+# ::snt go over to the sofa
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :direction (x2 / over)
+    :ARG4 (x5 / sofa))
+
+# ::id 98
+# ::snt place the mug to the head of the table
+# ::parameters x3 x9
+# ::action Relocate_Action
+(x1 / place
+    :ARG1 (x3 / mug)
+    :ARG2 (x9 / table
+        :ARG1-of (x6 / head)))
+
+# ::id 99
+# ::snt follow my mother to the garden
+# ::parameters xap0
+# ::action Follow_Action
+(x1 / follow-01
+    :destination (x6 / garden)
+    :ARG2 (xap0 / person
+        :ARG0-of (x3 / have-rel-role-91
+            :ARG2 (m / mother))
+        :poss (x2 / i)))
+
+# ::id 100
+# ::snt follow my friend into the living room
+# ::parameters xap0
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG2 (xap0 / have-rel-role-91
+        :ARG2 (f / friend
+            :poss (x2 / i)))
+    :destination (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 101
+# ::snt put the book on the chair near the dining table
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / book)
+    :ARG2 (x6 / chair
+        :location (x7 / near-02
+            :op1 (x10 / table
+                :mod (x9 / dine-01)))))
+
+# ::id 102
+# ::snt move to the far end of this table
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x5 / end-01
+        :ARG1-of (x8 / table
+            :mod (x7 / this))))
+
+# ::id 103
+# ::snt find the red pillow
+# ::parameters x4
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x4 / pillow
+        :mod (x3 / red)))
+
+# ::id 104
+# ::snt you are in a very big bathroom
+# ::parameters x1 x7
+# ::action Define_Action
+(x1 / you
+    :location (x7 / bathroom
+        :mod (x6 / big
+            :degree (x5 / very))))
+
+# ::id 105
+# ::snt pick my mobile phone and put it on the chair near the table
+(x5 / and
+    :op1 (x1 / pick-10
+        :ARG1 (x4 / phone
+            :mod (x3 / mobile-02)))
+    :op2 (x6 / put-01
+        :ARG2 (x10 / chair
+            :location (x11 / near-02
+                :op1 (x13 / table)))))
+
+# ::id 106
+# ::snt move to the sink and open the cold water
+(x5 / and
+    :op1 (x1 / move-01
+        :ARG2 (x4 / sink-01))
+    :op2 (x6 / open-01
+        :ARG1 (x9 / water
+            :mod (x8 / cold))))
+
+# ::id 107
+# ::snt go to the bathroom to the down right cupboard and take a towel
+(x10 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / bathroom)
+        :ARG4 (x9 / cupboard
+            :mod (x8 / right
+                :mod (x7 / down))))
+    :op2 (x11 / take-01
+        :ARG1 (x13 / towel)))
+
+# ::id 108
+# ::snt take the mug in the kitchen and bring it to the side of the bathtub
+(x7 / and
+    :op1 (x1 / take-01
+        :ARG1 (x3 / mug
+            :location (x6 / kitchen)))
+    :op2 (x8 / bring-01
+        :ARG1 x3
+        :ARG2 (x12 / side
+            :ARG1-of (x15 / bathtub))))
+
+# ::id 109
+# ::snt go to the kitchen and get me some water
+(x5 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / kitchen))
+    :op2 (x6 / get-01
+        :ARG1 (x9 / water
+            :quant (x8 / some))
+        :ARG4 (x7 / i)))
+
+# ::id 110
+# ::snt find my book on the sofa near the window
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / book
+        :poss (x2 / i)
+        :location (x6 / sofa
+            :location (x7 / near-02
+                :op1 (x9 / window)))))
+
+# ::id 111
+# ::snt follow the guy with the red hoodie and the white shoes
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / guy)
+        :ARG1-of (x8 / and
+            :op1 (x7 / hoodie
+                :mod (x6 / red))
+            :op2 (x11 / shoe
+                :mod (x10 / white))))
+
+# ::id 112
+# ::snt follow me to the kitchen
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :ARG2 (x5 / kitchen))
+
+# ::id 113
+# ::snt bring me my phone from the bed room
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / phone
+        :poss (x3 / i)
+        :location (x8 / room
+            :mod (x7 / bed)))
+    :ARG2 (x2 / i))
+
+# ::id 114
+# ::snt follow me to the bedroom
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :ARG2 (x5 / bedroom))
+
+# ::id 115
+# ::snt move to the left of the table
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / left
+        :ARG1-of (x7 / table)))
+
+# ::id 116
+# ::snt put the pillow under the bed
+# ::parameters x3 x4
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / pillow)
+    :location (x4 / under
+        :op1 (x6 / bed)))
+
+# ::id 117
+# ::snt find the glasses on the table
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / glass)
+        :location (x6 / table))
+
+# ::id 118
+# ::snt follow the person behind me
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / person
+        :location (x4 / behind
+            :op1 (x5 / i))))
+
+# ::id 119
+# ::snt go close to the shower
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x5 / shower-01
+        :location (x2 / close)))
+
+# ::id 120
+# ::snt this is a double bedroom with four pictures on the wall
+# ::parameters x5 x8
+# ::action Define_Action
+(x5 / bedroom
+    :domain (x1 / this)
+    :mod (x4 / double)
+    :ARG1-of (x8 / picture
+        :quant 4
+        :location (x11 / wall)))
+
+# ::id 121
+# ::snt put my mobile phone on the kitchen table
+# ::parameters x4 x8
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x4 / phone
+        :poss (x2 / i)
+        :mod (x3 / mobile-02))
+    :ARG2 (x8 / table
+        :mod (x7 / kitchen)))
+
+# ::id 122
+# ::snt follow the man in black
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / man
+        :mod (x5 / black-04)))
+
+# ::id 123
+# ::snt bring me yogurt from the fridge
+# ::parameters x3 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / yogurt
+        :location (x6 / fridge))
+    :ARG2 (x2 / i))
+
+# ::id 124
+# ::snt put the coffee mug into the dishwasher
+# ::parameters x4 x7
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x4 / mug
+        :mod (x3 / coffee))
+    :ARG2 (x7 / dishwasher))
+
+# ::id 125
+# ::snt search for the bottle of wine on the table
+# ::parameters x6
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x6 / wine
+        :quant (x4 / bottle)
+        :location (x9 / table)))
+
+# ::id 126
+# ::snt this is a bedroom with big double bed and two bedside tables
+# ::parameters x4 x9
+# ::action Define_Action
+(x4 / bedroom
+    :domain (x1 / this)
+    :ARG1-of (x9 / and
+        :op1 (x8 / bed
+            :mod (x6 / big)
+            :mod (x7 / double))
+        :op2 (x12 / table
+            :quant 2
+            :mod (x11 / bedside))))
+
+# ::id 127
+# ::snt take the book and put it in the oven
+(x6 / and
+    :op1 (x1 / take-01
+        :ARG1 (x3 / book))
+    :op2 (x5 / put-01
+        :ARG1 x3
+        :ARG2 (x9 / oven)))
+
+# ::id 128
+# ::snt follow everywhere he goes and keep the same pace as he has
+(x7 / and
+    :op1 (x1 / follow-01
+        :location (x2 / everywhere
+            :op1 (x3 / he)))
+    :op2 (x8 / keep-02
+        :ARG1 (x9 / pace-01
+            :mod (x8 / same-01
+                :ARG1-of x3))))
+
+# ::id 129
+# ::snt take my phone into the living room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / phone
+        :poss (x2 / i))
+    :ARG3 (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 130
+# ::snt find me the black cushion which is on the bed
+# ::parameters x5 x2
+# ::action Relocate_Action
+(x1 / find-01
+    :ARG1 (x5 / cushion
+        :ARG1-of (x4 / black-05)
+        :location (x10 / bed))
+    :ARG2 (x2 / i))
+
+# ::id 131
+# ::snt enter the bathroom and go towards the sink on the left hand side
+(x4 / and
+    :op1 (x1 / enter-01
+        :ARG1 (x3 / bathroom))
+    :op2 (x5 / go-01
+        :ARG1 (x8 / sink-01
+            :location (x13 / side
+                :mod (x12 / hand
+                    :mod (x11 / left))))))
+
+# ::id 132
+# ::snt follow me slowly
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :manner (x3 / slow))
+
+# ::id 133
+# ::snt go to the chair
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / chair))
+
+# ::id 134
+# ::snt this is a bedroom with one bed and two night stands
+# ::parameters x4 x8
+# ::action Define_Action
+(x4 / bedroom
+    :domain (x1 / this)
+    :ARG1-of (x8 / and
+        :op1 (x7 / bed
+            :quant 1)
+        :op2 (x11 / stand
+            :quant 2
+            :mod (x10 / night))))
+
+# ::id 135
+# ::snt search the book and bring it to me
+(x4 / and
+    :op1 (x1 / search-01
+        :ARG1 (x3 / book))
+    :op2 (x5 / bring-01
+        :ARG1 x3)
+        :ARG2 (x8 / i))
+
+# ::id 136
+# ::snt follow me very fast
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :manner (x4 / fast
+        :degree (x3 / very)))
+
+# ::id 137
+# ::snt take the mug to the sink
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x2 / take-01
+    :ARG1 (x3 / mug)
+    :ARG3 (x6 / sink-01))
+
+# ::id 138
+# ::snt follow the postman
+# ::parameters x3
+# ::action Follow_Action
+(x2 / follow-01
+    :ARG1 (x3 / postman))
+
+# ::id 139
+# ::snt go to the shower
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x2 / go-01
+    :ARG4 (x4 / shower-01))
+
+# ::id 140
+# ::snt this is the bedroom with a double bed with two lights next to it
+# ::parameters x5 x8
+# ::action Define_Action
+(x5 / bedroom
+    :domain (x1 / this)
+    :ARG1-of (x8 / bed
+        :mod (x7 / double)
+        :ARG1-of (x11 / light
+            :quant 2
+            :location (x12 / next-to
+                :op1 x8))))
+
+# ::id 141
+# ::snt carry the phone to the chair
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / phone)
+    :destination (x6 / chair))
+
+# ::id 142
+# ::snt there is a radio next to the bed
+# ::parameters x4 x5
+# ::action Define_Action
+(x4 / radio
+    :location (x5 / next-to
+        :op1 (x8 / bed)))
+
+# ::id 143
+# ::snt find the fruit
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / fruit))
+
+# ::id 144
+# ::snt go to the sink
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / sink-01))
+
+# ::id 145
+# ::snt follow me to the table
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :destination (x5 / table))
+
+# ::id 146
+# ::snt bring the cigarettes near the counter on the right
+# ::parameters x3 x4
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / cigarette)
+        :location (x4 / near-02
+            :op1 (x6 / counter
+                :location (x9 / right-05))))
+
+# ::id 147
+# ::snt go to the bathroom take the rag go to the hall and clean the mirror
+(x12 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / bathroom))
+    :op2 (x5 / take-01
+        :ARG1 (x7 / rag-01))
+    :op3 (x8 / go-01
+        :ARG4 (x11 / hall))
+    :op4 (x13 / clean-01
+        :ARG1 (x15 / mirror)))
+
+# ::id 148
+# ::snt move near the television of the kitchen
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / move-01
+    :destination (x2 / near-01
+        :op1 (x4 / television
+            :ARG1-of (x7 / kitchen))))
+
+# ::id 149
+# ::snt bring me my towel that is in the bathroom
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / towel
+        :poss (x3 / i)
+        :location (x9 / bathroom))
+    :ARG2 (x2 / i))
+
+# ::id 150
+# ::snt deliver this message to the person in the living room
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / deliver-01
+    :ARG1 (x3 / message
+        :mod (x2 / this))
+    :ARG2 (x6 / person
+        :location (x10 / room
+            :mod (x9 / live-01))))
+
+# ::id 151
+# ::snt go to living room and turn on the tv
+(x5 / and
+    :op1 (x1 / go-01
+        :ARG4 (x4 / room
+            :mod (x3 / live-01)))
+    :op2 (x6 / turn-02
+        :ARG1 (x9 / tv)
+        :direction (x7 / on)))
+
+# ::id 152
+# ::snt take the remote control and turn on the tv
+(x5 / and
+    :op1 (x1 / take-01
+        :ARG1 (x4 / control-01
+            :mod (x3 / remote)))
+    :op2 (x6 / turn-02
+        :ARG1 (x9 / tv)
+        :direction (x7 / on)))
+
+# ::id 153
+# ::snt go in front of the main door and open it
+(x8 / and
+    :op1 (x1 / go-01
+        :ARG4 (x3 / front
+            :ARG1-of (x7 / door
+                :mod (x6 / main))))
+    :op2 (x9 / open-01
+        :ARG1 x7))
+        
+
+# ::id 154
+# ::snt grab the box on the left of the desktop
+# ::parameters x3
+# ::action Grab_Action
+(x1 / grab-01
+    :ARG1 (x3 / box
+        :location (x6 / left
+            :ARG1-of (x9 / desktop))))
+
+# ::id 155
+# ::snt bring slowly the box near the counter of the kitchen
+# ::parameters x4 x0
+# ::action Relocate_Action
+(x1 / bring-01
+    :manner (x2 / slow)
+    :ARG1 (x4 / box
+        :location (x5 / near-02
+            :op1 (x7 / counter
+                :ARG1-of (x10 / kitchen)))))
+
+# ::id 156
+# ::snt move the trash bin from the kitchen to the studio
+# ::parameters x4 x10
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG1 (x4 / bin
+        :mod (x3 / trash)
+        :location (x7 / kitchen))
+    :ARG2 (x10 / studio))
+
+# ::id 157
+# ::snt disconnect from the laptop at the right of the counter
+# ::parameters x4
+# ::action New_State_Action
+(x1 / disconnect-01
+    :ARG2 (x4 / laptop
+        :location (x7 / right-05
+            :ARG1-of (x10 / counter))))
+
+# ::id 158
+# ::snt hang this jacket in the closet of the corridor
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / hang-01
+    :ARG1 (x3 / jacket
+        :mod (x2 / this))
+    :destination (x6 / closet
+        :ARG1-of (x9 / corridor)))
+
+# ::id 159
+# ::snt check main door status
+# ::parameters x4
+# ::action Check_Action
+(x1 / check-01
+    :ARG1 (x4 / status
+        :ARG1-of (x3 / door
+            :mod (x2 / main))))
+
+# ::id 160
+# ::snt check the toilet paper
+# ::parameters x4
+# ::action Check_Action
+(x1 / check-01
+    :ARG1 (x4 / paper
+        :mod (x3 / toilet)))
+
+# ::id 161
+# ::snt there are two couches facing one another
+# ::parameters x4 x5
+# ::action Define_Action
+(x4 / couch
+    :quant 2
+    :ARG1-of (x5 / facing
+        :op1 (x6 / one)
+        :op2 (x7 / another)))
+
+# ::id 162
+# ::snt there is a table in the center of the dining room
+# ::parameters x4 x7
+# ::action Define_Action
+(x4 / table
+    :location (x7 / center
+        :ARG1-of (x11 / room
+            :mod (x10 / dine-01))))
+
+# ::id 163
+# ::snt move to the front of the fridge
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / front
+        :ARG1-of (x7 / fridge)))
+
+# ::id 164
+# ::snt this is a bed room where we can find a bed and few pillows and two clops
+# ::parameters x5 x12
+# ::action Define_Action
+(x5 / room
+    :domain (x1 / this)
+    :mod (x4 / bed)
+    :ARG1-of (x12 / and
+        :op1 (x11 / bed)
+        :op2 (x15 / and
+            :op1 (x14 / pillow
+                :quant (x13 / few))
+            :op2 (x17 / clop
+                :quant 2))))
+
+# ::id 165
+# ::snt there are two abat jour next to the bed and seven pillows
+(x10 / and
+    :op1 (x4 / jour
+        :quant 2
+        :mod (x3 / abat)
+        :location (x5 / next-to
+            :op1 (x9 / bed)))
+    :op2 (x12 / pillow
+        :quant 7))
+
+# ::id 166
+# ::snt check if the coffee is ready
+# ::parameters xap0
+# ::action Check_Action
+(x1 / check-01
+    :ARG1 (xap0 / truth-value
+        :polarity-of (x4 / coffee
+            :time (x6 / ready))))
+
+# ::id 167
+# ::snt in this room there are six chairs
+# ::parameters x7 x3
+# ::action Define_Action
+(x7 / chair
+    :location (x3 / room
+        :mod (x2 / this))
+    :quant 6)
+
+# ::id 168
+# ::snt give me the towel
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / give-01
+    :ARG1 (x4 / towel)
+    :ARG2 (x2 / i))
+
+# ::id 169
+# ::snt bring the box near the closet of the bedroom
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / box
+        :location (x4 / near-02
+            :op1 (x6 / closet
+                :ARG1-of (x9 / bedroom)))))
+
+# ::id 170
+# ::snt enter the door
+# ::parameters x0 x3
+# ::action Relocate_Action
+(x1 / enter-01
+    :ARG1 (x3 / door))
+
+# ::id 171
+# ::snt open the bottle
+# ::parameters x3
+# ::action New_State_Action
+(x1 / open-01
+    :ARG1 (x3 / bottle))
+
+# ::id 172
+# ::snt bring the paper near the television
+# ::parameters x3 x4
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / paper
+        :location (x4 / near-02
+            :op1 (x6 / television))))
+
+# ::id 173
+# ::snt bring the pillow to the couch of the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / pillow)
+    :ARG2 (x6 / couch
+        :ARG1-of (x9 / bedroom)))
+
+# ::id 174
+# ::snt carry the laptop to daniele
+# ::parameters x3 x5
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / laptop)
+    :destination (x5 / daniele))
+
+# ::id 175
+# ::snt carry the paper near the counter
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / paper
+        :location (x4 / near-02
+            :op1 (x6 / counter))))
+
+# ::id 176
+# ::snt carry the pillow near the window of the bedroom
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / pillow
+        :location (x4 / near-02
+            :op1 (x6 / window
+                :ARG1-of (x9 / bedroom)))))
+
+# ::id 177
+# ::snt catch the phone at the right of the desk
+# ::parameters x3
+# ::action Grab_Action
+(x1 / catch-01
+    :ARG1 (x3 / phone
+        :location (x6 / right-05
+            :ARG1-of (x9 / desk))))
+
+# ::id 178
+# ::snt catch the pillow
+# ::parameters x3
+# ::action Grab_Action
+(x1 / catch-01
+    :ARG1 (x3 / pillow))
+
+# ::id 179
+# ::snt close the case on the bed
+# ::parameters x3
+# ::action New_State_Action
+(x1 / close-01
+    :ARG1 (x3 / case-03
+        :location (x6 / bed)))
+
+# ::id 180
+# ::snt close the door on the right
+# ::parameters x3
+# ::action New_State_Action
+(x1 / close-01
+    :ARG1 (x3 / door
+        :location (x6 / right-05)))
+
+# ::id 181
+# ::snt close the jar
+# ::parameters x3
+# ::action New_State_Action
+(x1 / close-01
+    :ARG1 (x3 / jar))
+
+# ::id 182
+# ::snt close the window on the left
+# ::parameters x3
+# ::action New_State_Action
+(x1 / close-01
+    :ARG1 (x3 / window
+        :location (x6 / left)))
+
+# ::id 183
+# ::snt connect to the pc on your left
+# ::parameters x4
+# ::action New_State_Action
+(x1 / connect-01
+    :ARG2 (x4 / pc
+        :location (x7 / left)))
+
+# ::id 184
+# ::snt enter the bathroom
+# ::parameters x0 x3
+# ::action Relocate_Action
+(x1 / enter-01
+    :ARG1 (x3 / bathroom))
+
+# ::id 185
+# ::snt enter the door of the kitchen
+# ::parameters x0 x3
+# ::action Relocate_Action
+(x1 / enter-01
+    :ARG1 (x3 / door
+        :ARG1-of (x6 / kitchen)))
+
+# ::id 186
+# ::snt enter the kitchen
+# ::parameters x0 x3
+# ::action Relocate_Action
+(x1 / enter-01
+    :ARG1 (x3 / kitchen))
+
+# ::id 187
+# ::snt go to the counter at your left
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / counter
+        :location (x7 / left
+            :op1 (x6 / you))))
+
+# ::id 188
+# ::snt go to the toilet
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / toilet))
+
+# ::id 189
+# ::snt grab the cigarettes next to the phone
+# ::parameters x3
+# ::action Grab_Action
+(x1 / grab-01
+    :ARG1 (x3 / cigarette
+        :location (x4 / next-to
+            :op1 (x7 / phone))))
+
+# ::id 190
+# ::snt grab the bottle
+# ::parameters x3
+# ::action Grab_Action
+(x1 / grab-01
+    :ARG1 (x3 / bottle))
+
+# ::id 191
+# ::snt grab the pillow at the left of the couch
+# ::parameters x3
+# ::action Grab_Action
+(x1 / grab-01
+    :ARG1 (x3 / pillow
+        :location (x6 / left
+            :ARG1-of (x9 / couch))))
+
+# ::id 192
+# ::snt look at me
+# ::parameters x3
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x3 / i))
+
+# ::id 193
+# ::snt look for the glass in the bedroom
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x4 / glass
+        :location (x7 / bedroom)))
+
+# ::id 194
+# ::snt look for the wrench in the bathroom
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x4 / wrench
+        :location (x7 / bathroom)))
+
+# ::id 195
+# ::snt move near the couch of the bedroom slowly
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / move-01
+    :destination (x2 / near-02
+        :op1 (x4 / couch
+            :ARG1-of (x7 / bedroom)))
+    :manner (x8 / slow))
+
+# ::id 196
+# ::snt move near the counter
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / move-01
+    :destination (x2 / near-02
+        :op1 (x4 / counter)))
+
+# ::id 197
+# ::snt move near the window
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / move-01
+    :destination (x2 / near-02
+        :op1 (x4 / window)))
+
+# ::id 198
+# ::snt move to the fridge
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / fridge))
+
+# ::id 199
+# ::snt open the box on the left of the recorder
+# ::parameters x3
+# ::action New_State_Action
+(x1 / open-01
+    :ARG1 (x3 / box
+        :location (x6 / left
+            :ARG1-of (x9 / recorder))))
+
+# ::id 200
+# ::snt search in the corridor for the jar
+# ::parameters x7
+# ::action Search_Action
+(x1 / search-01
+    :ARG1 (x4 / corridor)
+    :ARG2 (x7 / jar))
+
+# ::id 201
+# ::snt take the bottle near the fridge
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / bottle
+        :location (x4 / near
+            :op1 (x6 / fridge))))
+
+# ::id 202
+# ::snt take the case at the left of the box
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / case-03
+        :location (x6 / left
+            :ARG1-of (x9 / box))))
+
+# ::id 203
+# ::snt take the jar to the table of the kitchen
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / jar)
+    :ARG3 (x6 / table
+        :ARG1-of (x9 / kitchen)))
+
+# ::id 204
+# ::snt take the paper to the bathroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / paper)
+    :ARG3 (x6 / bathroom))
+
+# ::id 205
+# ::snt take the phone on the couch
+# ::parameters x3
+# ::action Grab_Action
+(x1 / take-01
+    :ARG1 (x3 / phone
+        :location (x6 / couch)))
+
+# ::id 206
+# ::snt take the phone on the left of the pc
+# ::parameters x3
+# ::action Grab_Action
+(x1 / take-01
+    :ARG1 (x3 / phone
+        :location (x6 / left
+            :ARG1-of (x9 / pc))))
+
+# ::id 207
+# ::snt take the screwdriver to daniele
+# ::parameters x3 x5
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / screwdriver)
+    :ARG3 (x5 / daniele))
+
+# ::id 208
+# ::snt turn on the switch
+# ::parameters x4
+# ::action New_State_Action
+(x1 / turn-02
+    :ARG1 (x4 / switch)
+    :direction (x2 / on))
+
+# ::id 209
+# ::snt walk to the stairs quickly
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / walk-01
+    :destination (x4 / stair)
+    :manner (x5 / quick-02))
+
+# ::id 210
+# ::snt activate the television
+# ::parameters x3
+# ::action New_State_Action
+(x1 / activate-01
+    :ARG1 (x3 / television))
+
+# ::id 211
+# ::snt activate the television at the right of the console
+# ::parameters x3
+# ::action New_State_Action
+(x1 / activate-01
+    :ARG1 (x3 / television
+        :location (x6 / right-05
+            :ARG2-of (x9 / console))))
+
+# ::id 212
+# ::snt bring me the bottle
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x4 / bottle)
+    :ARG2 (x2 / i))
+
+# ::id 213
+# ::snt bring the book to the dining room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / book)
+    :ARG2 (x7 / room
+        :mod (x6 / dine-01)))
+
+# ::id 214
+# ::snt bring the bottle to the bathroom sink
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / bottle)
+    :ARG1 (x7 / sink-01
+        :mod (x6 / bathroom)))
+
+# ::id 215
+# ::snt bring the bottle to the couch
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / bottle)
+    :ARG2 (x6 / couch))
+
+# ::id 216
+# ::snt bring the bottle to the kitchen
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / bottle)
+    :ARG2 (x6 / kitchen))
+
+# ::id 217
+# ::snt bring the mobile to the dining room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / mobile-02)
+    :ARG2 (x7 / room
+        :mod (x6 / dine-01)))
+
+# ::id 218
+# ::snt bring the mobile to the living room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / mobile-02)
+    :ARG2 (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 219
+# ::snt bring the mug to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / bedroom))
+
+# ::id 220
+# ::snt bring the phone to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x6 / bedroom))
+
+# ::id 221
+# ::snt carry the mug to the living room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x3 / mug)
+    :destination (x7 / room
+        :mod (x6 / live-01)))
+
+# ::id 222
+# ::snt come to the table
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / come-01
+    :ARG4 (x4 / table))
+
+# ::id 223
+# ::snt bring the phone to the bathroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / bring-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x6 / bathroom))
+
+# ::id 224
+# ::snt find a bottle in the kitchen
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / bottle
+        :location (x6 / kitchen)))
+
+# ::id 225
+# ::snt find my address book in the living room
+# ::parameters x4
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x4 / book
+        :poss (x2 / i)
+        :mod (x3 / address-02)
+        :location (x8 / room
+            :mod (x7 / live-01))))
+
+# ::id 226
+# ::snt find my hat on the bed in the bedroom
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / hat
+        :poss (x2 / i)
+        :location (x6 / bed
+            :location (x9 / bedroom))))
+
+# ::id 227
+# ::snt find the bed in the bathroom
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / bed
+        :location (x6 / bathroom)))
+
+# ::id 228
+# ::snt find the bottle
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / bottle))
+
+# ::id 229
+# ::snt find the bottle of wine in the kitchen
+# ::parameters x5
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x5 / wine
+        :quant (x3 / bottle)
+        :location (x8 / kitchen)))
+
+# ::id 230
+# ::snt find the phone
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / phone))
+
+# ::id 231
+# ::snt find the phone in the studio
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / phone
+        :location (x6 / studio)))
+
+# ::id 232
+# ::snt find the pillow
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / pillow))
+
+# ::id 233
+# ::snt find the plates on the table
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / plate
+        :location (x6 / table)))
+
+# ::id 234
+# ::snt find the shower
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / shower-01))
+
+# ::id 235
+# ::snt find the stove in the studio
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / stove
+        :location (x6 / studio)))
+
+# ::id 236
+# ::snt find the table in the bedroom
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / table
+        :location (x6 / bedroom)))
+
+# ::id 237
+# ::snt find the television
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / television))
+
+# ::id 238
+# ::snt find the white vase
+# ::parameters x4
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x4 / vase
+        :ARG1-of (x3 / white)))
+
+# ::id 239
+# ::snt find vittorio 's phone
+# ::parameters x4
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x4 / phone
+        :ARG1-of (x2 / vittorio)))
+
+# ::id 240
+# ::snt follow slowly
+# ::parameters x0
+# ::action Follow_Action
+(x1 / follow-01
+    :manner (x2 / slow))
+
+# ::id 241
+# ::snt follow mark slowly
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / mark)
+    :manner (x3 / slow))
+
+# ::id 242
+# ::snt follow me slowly
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :manner (x3 / slow))
+
+# ::id 243
+# ::snt follow the guy in the blue hoodie
+# ::parameters x3
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x3 / guy
+        :ARG1-of (x7 / hoodie
+            :ARG1-of (x6 / blue))))
+
+# ::id 244
+# ::snt get the phone and take it to the bathroom
+(x4 / and
+    :op1 (x1 / get-01
+        :ARG1 (x3 / phone))
+    :op2 (x5 / take-01
+        :ARG1 x3
+        :ARG2 (x9 / bathroom)))
+
+# ::id 245
+# ::snt go find the book
+(xap0 / and
+    :op1 (x1 / go-01)
+    :op2 (x2 / find-01
+        :ARG1 (x4 / book)))
+
+# ::id 246
+# ::snt go get the book
+(xap0 / and
+    :op1 (x1 / go-01)
+    :op2 (x2 / get-01
+        :ARG1 (x4 / book)))
+
+# ::id 247
+# ::snt go into the bathroom
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / bathroom))
+
+# ::id 248
+# ::snt go into the dining room with the bottle
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x5 / room
+        :mod (x4 / dine-01))
+        :consist-of (x8 / bottle))
+
+# ::id 249
+# ::snt go near the couch
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x2 / near-01
+        :op1 (x4 / couch)))
+
+# ::id 250
+# ::snt go to dining room
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / room
+        :mod (x3 / dine)))
+
+# ::id 251
+# ::snt go to studio
+# ::parameters x0 x3
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x3 / studio))
+
+# ::id 252
+# ::snt go to the closet of the dining room
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / closet
+        :ARG1-of (x8 / room
+            :mod (x7 / dine-01))))
+
+# ::id 253
+# ::snt go to the fridge
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / fridge))
+
+# ::id 254
+# ::snt go to the living room
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x5 / room
+        :mod (x4 / live-01)))
+
+# ::id 255
+# ::snt go to the lounge
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / lounge))
+
+# ::id 256
+# ::snt go to the studio
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / studio))
+
+# ::id 257
+# ::snt go to the television in the living room
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / television
+        :location (x8 / room
+            :mod (x7 / live-01))))
+
+# ::id 258
+# ::snt go to the television in the studio
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / go-01
+    :ARG4 (x4 / television
+        :location (x7 / studio)))
+
+# ::id 259
+# ::snt look for my handbag in the dining room
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1-of (x4 / handbag
+        :poss (x3 / i)
+        :location (x8 / room
+            :mod (x7 / dine-01)))))
+
+# ::id 260
+# ::snt look for my phone
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x4 / phone
+        :poss (x3 / i)))
+
+# ::id 261
+# ::snt look for my phone in the bathroom and the bedroom
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x4 / phone
+        :poss (x3 / i)
+        :location (x8 / and
+            :op1 (x7 / bathroom)
+            :op2 (x10 / bedroom))))
+
+# ::id 262
+# ::snt look for the bed in the bathroom
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x4 / bed
+        :location (x7 / bathroom)))
+
+# ::id 263
+# ::snt look for the soap in the bathroom
+# ::parameters x4
+# ::action Search_Action
+(x1 / look-01
+    :ARG1 (x4 / soap
+        :location (x7 / bathroom)))
+
+# ::id 264
+# ::snt move towards the bedroom
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / bedroom))
+
+# ::id 265
+# ::snt move towards the kitchen
+# ::parameters x0 x4
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x4 / kitchen))
+
+# ::id 266
+# ::snt find the bed
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / bed))
+
+# ::id 267
+# ::snt find the table in the bedroom
+# ::parameters x3
+# ::action Search_Action
+(x1 / find-01
+    :ARG1 (x3 / table
+        :location (x6 / bedroom)))
+
+# ::id 268
+# ::snt follow me to the living room
+# ::parameters x2
+# ::action Follow_Action
+(x1 / follow-01
+    :ARG1 (x2 / i)
+    :ARG2 (x6 / room
+        :mod (x5 / live-01)))
+
+# ::id 269
+# ::snt follow that person and do it slowly
+# ::parameters x3
+# ::action Follow_Action
+(x4 / and
+    :op1 (x1 / follow-01
+        :ARG1 (x3 / person
+            :mod (x2 / that)))
+    :op2 (x5 / do-02
+        :ARG1 x1
+        :manner (x7 / slow)))
+
+# ::id 270
+# ::snt get the cushion from the bed
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / get-01
+    :ARG1 (x3 / cushion)
+    :ARG2 (x6 / bed))
+
+# ::id 271
+# ::snt move towards the living room
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / move-01
+    :ARG2 (x5 / room
+        :mod (x4 / live-01)))
+
+# ::id 272
+# ::snt put the book in the dining room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / book)
+    :ARG2 (x7 / room
+        :mod (x6 / dine-01)))
+
+# ::id 273
+# ::snt put the book on the table in the dining room
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / book)
+    :ARG2 (x6 / table
+        :location (x10 / room
+            :mod (x9 / dine-01))))
+
+# ::id 274
+# ::snt take the book to the bathroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / book)
+    :ARG2 (x6 / bathroom))
+
+# ::id 275
+# ::snt take the mug to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / mug)
+    :ARG2 (x6 / bedroom))
+
+# ::id 276
+# ::snt walk slowly to the kitchen
+# ::parameters x0 x5
+# ::action Relocate_Action
+(x1 / walk-01
+    :manner (x2 / slow)
+    :destination (x5 / kitchen))
+
+# ::id 277
+# ::snt put the book on the bed
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / book)
+    :ARG2 (x6 / bed))
+
+# ::id 278
+# ::snt put the bottle on the table in the dining room
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / bottle)
+    :ARG2 (x6 / table
+        :location (x10 / room
+            :mod (x9 / dine-01))))
+
+# ::id 279
+# ::snt put the bottle on the table in the studio
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / bottle)
+    :ARG2 (x6 / table
+        :location (x9 / studio)))
+
+# ::id 280
+# ::snt put the phone in the kitchen stove
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x7 / stove
+        :mod (x6 / kitchen)))
+
+# ::id 281
+# ::snt put the phone on the table in the dining room
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / put-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x6 / table
+        :location (x10 / room
+            :mod (x9 / dine-01))))
+
+# ::id 282
+# ::snt search for a pillow in the living room
+# ::parameters x4
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x4 / pillow
+        :location (x8 / room
+            :mod (x7 / live-01))))
+
+# ::id 283
+# ::snt reach martina from behind
+# ::parameters x0 x2
+# ::action Relocate_Action
+(x1 / reach-01
+    :ARG1 (x2 / martina)
+    :direction (x4 / behind))
+
+# ::id 284
+# ::snt search for the bottle
+# ::parameters x4
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x4 / bottle))
+
+# ::id 285
+# ::snt search for the stove in the studio
+# ::parameters x4
+# ::action Search_Action
+(x1 / search-01
+    :ARG2 (x4 / stove
+        :location (x7 / studio)))
+
+# ::id 286
+# ::snt take the book to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / book)
+    :ARG3 (x6 / bedroom))
+
+# ::id 287
+# ::snt take the bottle to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / bottle)
+    :ARG3 (x6 / bedroom))
+
+# ::id 288
+# ::snt take the bottle to the dining room
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / bottle)
+    :ARG3 (x7 / room
+        :mod (x6 / dine-01)))
+
+# ::id 289
+# ::snt take the bottle to the kitchen
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / bottle)
+    :ARG3 (x6 / kitchen))
+
+# ::id 290
+# ::snt take the mobile into the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / mobile-02)
+    :ARG3 (x6 / bedroom))
+
+# ::id 291
+# ::snt take the phone to the bathroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / phone)
+    :ARG3 (x6 / bathroom))
+
+# ::id 292
+# ::snt take the phone to the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / phone)
+    :ARG2 (x6 / bedroom))
+
+# ::id 293
+# ::snt drop the phone in the kitchen fridge
+# ::parameters x3 x7
+# ::action Relocate_Action
+(x1 / drop-01
+    :ARG1 (x3 / phone)
+    :ARG4 (x7 / fridge
+        :mod (x6 / kitchen)))
+
+# ::id 294
+# ::snt leave the book in the bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / leave-12
+    :ARG1 (x3 / book)
+    :ARG2 (x6 / bedroom))
+
+# ::id 295
+# ::snt give me one apple from the table
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / give-01
+    :ARG1 (x4 / apple
+        :quant 1
+        :location (x7 / table))
+    :ARG2 (x2 / i))
+
+# ::id 296
+# ::snt it 's a diningroom with a table of glass in it with six chairs
+# ::parameters x4 xap0
+# ::action Define_Action
+(x4 / diningroom
+    :prep-with (xap0 / and
+        :op1 (x7 / table
+            :ARG1-of (x9 / glass))
+        :op2 (x14 / chair
+            :quant 6)))
+
+# ::id 297
+# ::snt disconnect from the router
+# ::parameters x4
+# ::action New_State_Action
+(x1 / disconnect-01
+    :ARG2 (x4 / router))
+
+# ::id 298
+# ::snt take the laptop near the table of the dining room
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / laptop
+        :location (x4 / near-02
+            :op1 (x6 / table
+                :ARG1-of (x10 / room
+                    :mod (x9 / dine-01))))))
+
+# ::id 299
+# ::snt take the phone near the table at your right
+# ::parameters x3
+# ::action Grab_Action
+(x1 / take-01
+    :ARG1 (x3 / phone
+        :location (x4 / near-02
+            :op1 (x6 / table
+                :location (x9 / right-05
+                    :op1 (x8 / you))))))
+
+# ::id 300
+# ::snt take the mug on the table in the living room
+# ::parameters x3 x0
+# ::action Relocate_Action
+(x1 / take-01
+    :ARG1 (x3 / mug
+        :location (x6 / table
+            :location (x10 / room
+                :mod (x9 / live-01)))))
+
+# ::id 301
+# ::snt hang my coat in the closet in my bedroom
+# ::parameters x3 x6
+# ::action Relocate_Action
+(x1 / hang-01
+    :ARG1 (x3 / coat
+        :poss (x2 / i))
+    :location (x6 / closet
+        :location (x9 / bedroom)))
+
+# ::id 302
+# ::snt carry me the phone that is on the glass table in the dining room
+# ::parameters x4 x2
+# ::action Relocate_Action
+(x1 / carry-01
+    :ARG1 (x4 / phone
+        :location (x10 / table
+            :mod (x9 / glass)
+            :location (x14 / room
+                :mod (x13 / dine-01))))
+    :ARG2 (x2 / i))
+
+
+
